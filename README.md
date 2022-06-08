@@ -4,7 +4,7 @@
 ****
 ## 🔥 개발 기간
 **2022.05.23 ~ 진행중**  
-**저희의 구체적인 개발 과정이 궁금하시다면 ->  [Mr Manager의 Wiki](https://github.com/IOS-Project-Organization/Mr-Manager.wiki.git)**  
+**저희의 구체적인 개발 과정이 궁금하시다면 ->  [Mr Manager의 Wiki](https://github.com/IOS-Project-Organization/Mr-Manager/wiki)**  
   
 ## 🔥 팀 소개
 장기현|신동은|
