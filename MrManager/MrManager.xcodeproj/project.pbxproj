@@ -25,12 +25,10 @@
 		DA7D3821285385F200A93E86 /* d.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D3820285385F200A93E86 /* d.swift */; };
 		DA7D3823285385F900A93E86 /* e.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D3822285385F900A93E86 /* e.swift */; };
 		DA7D38252853860300A93E86 /* f.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D38242853860300A93E86 /* f.swift */; };
-		DA7D38342856055000A93E86 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D38332856055000A93E86 /* View.swift */; };
 		DA7D38362856058200A93E86 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D38352856058200A93E86 /* HomeViewController.swift */; };
 		DA7D38382856059400A93E86 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D38372856059400A93E86 /* HomeViewModel.swift */; };
 		DA7D383A285605C000A93E86 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D3839285605C000A93E86 /* SettingViewController.swift */; };
 		DA7D383C285605D800A93E86 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D383B285605D800A93E86 /* SettingViewModel.swift */; };
-		DA7D383E2856061300A93E86 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D383D2856061300A93E86 /* View.swift */; };
 		DA7D38402856062D00A93E86 /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D383F2856062D00A93E86 /* AddTodoViewController.swift */; };
 		DA7D38442856073B00A93E86 /* RoutineDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D38432856073B00A93E86 /* RoutineDetailViewController.swift */; };
 		DA7D38462856075000A93E86 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D38452856075000A93E86 /* TodoListViewController.swift */; };
@@ -95,12 +93,10 @@
 		DA7D3820285385F200A93E86 /* d.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d.swift; sourceTree = "<group>"; };
 		DA7D3822285385F900A93E86 /* e.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e.swift; sourceTree = "<group>"; };
 		DA7D38242853860300A93E86 /* f.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = f.swift; sourceTree = "<group>"; };
-		DA7D38332856055000A93E86 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		DA7D38352856058200A93E86 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DA7D38372856059400A93E86 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DA7D3839285605C000A93E86 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		DA7D383B285605D800A93E86 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
-		DA7D383D2856061300A93E86 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		DA7D383F2856062D00A93E86 /* AddTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
 		DA7D38432856073B00A93E86 /* RoutineDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineDetailViewController.swift; sourceTree = "<group>"; };
 		DA7D38452856075000A93E86 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -351,7 +347,6 @@
 		DA7D382A2856046000A93E86 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DA7D38332856055000A93E86 /* View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -377,7 +372,6 @@
 		DA7D382D2856050200A93E86 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DA7D383D2856061300A93E86 /* View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -714,7 +708,6 @@
 				DA7D381B285385B500A93E86 /* a.swift in Sources */,
 				DA7D38362856058200A93E86 /* HomeViewController.swift in Sources */,
 				DA7D384A2856078700A93E86 /* RoutineDetailViewModel.swift in Sources */,
-				DA7D38342856055000A93E86 /* View.swift in Sources */,
 				DA7D384C2856079B00A93E86 /* SettingRoutineViewModel.swift in Sources */,
 				DA7D381D285385BF00A93E86 /* b.swift in Sources */,
 				DA7D3821285385F200A93E86 /* d.swift in Sources */,
@@ -722,7 +715,6 @@
 				DA7D384E285607AD00A93E86 /* TodoListViewModel.swift in Sources */,
 				DA7D38462856075000A93E86 /* TodoListViewController.swift in Sources */,
 				DA7D3823285385F900A93E86 /* e.swift in Sources */,
-				DA7D383E2856061300A93E86 /* View.swift in Sources */,
 				DA7D383A285605C000A93E86 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -918,9 +910,9 @@
 				INFOPLIST_FILE = MrManager/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -946,9 +938,9 @@
 				INFOPLIST_FILE = MrManager/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
