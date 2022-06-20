@@ -1,14 +1,14 @@
 //
-//  RoutineTableViewCell.swift
+//  RoutineDetailTableViewCell.swift
 //  MrManager
 //
-//  Created by dong eun shin on 2022/06/13.
+//  Created by dong eun shin on 2022/06/14.
 //
 
 import UIKit
 
-class RoutineTableViewCell: UITableViewCell {
-    static let identifier = "RoutineTableViewCell"
+class RoutineDetailTableViewCell: UITableViewCell {
+    static let identifier = "RoutineDetailTableViewCell"
 
     lazy var titleLabel: UILabel = {
         let label = UILabel()
@@ -17,13 +17,7 @@ class RoutineTableViewCell: UITableViewCell {
         return label
     }()
 
-    lazy var timeLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-    
-    lazy var dayLabel: UILabel = {
+    lazy var durationLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -36,34 +30,21 @@ class RoutineTableViewCell: UITableViewCell {
         contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0))
         contentView.layer.borderColor = UIColor.separator.cgColor
         contentView.layer.borderWidth = 10
-        
-        selectionStyle = .none
-
-        addContentView()
         setConstraints()
     }
     
-    private func addContentView() {
-        contentView.addSubview(titleLabel)
-        contentView.addSubview(timeLabel)
-        contentView.addSubview(dayLabel)
-    }
-    
     private func setConstraints() {
+        contentView.addSubview(titleLabel)
+        contentView.addSubview(durationLabel)
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: self.topAnchor),
             titleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 40),
-            titleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            titleLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor,constant: -10),
+            titleLabel.trailingAnchor.constraint(equalTo: durationLabel.leadingAnchor),
+            titleLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
             
-            timeLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor),
-            timeLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 40),
-            timeLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            timeLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor,constant: 10),
-            
-            dayLabel.topAnchor.constraint(equalTo: self.topAnchor),
-            dayLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor),
-            dayLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -40),
+            durationLabel.topAnchor.constraint(equalTo: self.topAnchor),
+            durationLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor),
+            durationLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -40),
             ])
     }
 

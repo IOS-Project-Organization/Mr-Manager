@@ -14,9 +14,10 @@ class HomeViewController: UIViewController {
         tableview.delegate = self
         tableview.dataSource = self
         configure()
+        
     }
     
-    let tableview : UITableView = {
+    let tableview: UITableView = {
         let tableView = UITableView()
         tableView.register(RoutineTableViewCell.self, forCellReuseIdentifier: RoutineTableViewCell.identifier)
         tableView.rowHeight = 100
@@ -178,8 +179,8 @@ class HomeViewController: UIViewController {
             forcastImgView.heightAnchor.constraint(equalToConstant: view.frame.width * 0.3),
             forcastImgView.centerYAnchor.constraint(equalTo: containerView.centerYAnchor),
             
-            tableview.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 10),
-            tableview.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -10),
+            tableview.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            tableview.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
             tableview.topAnchor.constraint(equalTo: tabBarContainerView.bottomAnchor),
             tableview.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             
@@ -199,6 +200,10 @@ class HomeViewController: UIViewController {
     }
 }
 extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = RoutineDetailViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
