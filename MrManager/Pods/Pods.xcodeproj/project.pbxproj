@@ -815,7 +815,7 @@
 		9A2E970237FA578D57845FFB21698DFC /* RxCollectionViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxCollectionViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		9A3405935A0BE08A08D0C9C83E6F2A32 /* Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Create.swift; path = RxSwift/Observables/Create.swift; sourceTree = "<group>"; };
 		9A5F225C7BBE933DDB6E9725F1EECBDC /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RxSwift/Observables/Error.swift; sourceTree = "<group>"; };
-		9B2A7E4D4FC7DC32DBDD89D8D584B00E /* Pods-MrManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MrManager"; path = Pods_MrManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2A7E4D4FC7DC32DBDD89D8D584B00E /* Pods_MrManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MrManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B913F5BAFE49D4C93BCD73E314EE41F /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
 		9C47C343B4D315E6A6B5DB5E7E6A2E9E /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		9CDACC05ADEE08FF0E15F64F408CA98D /* UISearchBar+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchBar+Rx.swift"; path = "RxCocoa/iOS/UISearchBar+Rx.swift"; sourceTree = "<group>"; };
@@ -1604,7 +1604,7 @@
 		D28A90EAB6917F43F1D3C57BD12172FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B2A7E4D4FC7DC32DBDD89D8D584B00E /* Pods-MrManager */,
+				9B2A7E4D4FC7DC32DBDD89D8D584B00E /* Pods_MrManager.framework */,
 				C304FF79278ED939A0FE536AD304913B /* Pods-MrManagerUseCaseTests */,
 				9E2F947005CBED3E8B154CC0DF2C30B1 /* Pods-MrManagerViewModelTests */,
 				BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */,
@@ -1845,7 +1845,7 @@
 			);
 			name = "Pods-MrManager";
 			productName = Pods_MrManager;
-			productReference = 9B2A7E4D4FC7DC32DBDD89D8D584B00E /* Pods-MrManager */;
+			productReference = 9B2A7E4D4FC7DC32DBDD89D8D584B00E /* Pods_MrManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */ = {
@@ -3250,7 +3250,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MrManager/Pods-MrManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3339,7 +3339,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MrManager/Pods-MrManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

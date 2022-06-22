@@ -2,7 +2,7 @@
 //  SettingViewController.swift
 //  MrManager
 //
-//  Created by Ki Hyun on 2022/06/12.
+//  Created by dong eun shin on 2022/06/20.
 //
 
 import UIKit
